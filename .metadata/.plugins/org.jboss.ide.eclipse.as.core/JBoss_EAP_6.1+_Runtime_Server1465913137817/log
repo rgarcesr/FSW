@@ -1,0 +1,16 @@
+!SESSION 2016-06-14 11:04:07.501 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -data D:\02 AMBIENTES\BCIFuse\Workspace_switchyard_ejemplos -os win32 -ws win32 -arch x86 -product com.jboss.jbds.product.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2016-06-14 11:13:38.490
+!MESSAGE Module switchyard-soap-demo published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2016-06-14 11:13:52.298
+!MESSAGE Module /switchyard-soap-demo published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-06-14 11:14:00.854
+!MESSAGE The server "JBoss EAP 6.1+ Runtime Server" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files (x86)\Java\jre1.8.0_77 

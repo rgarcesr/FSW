@@ -1,0 +1,56 @@
+!SESSION 2016-06-14 11:04:07.501 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_77
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_CL
+Framework arguments:  -product com.jboss.jbds.product.product
+Command-line arguments:  -data D:\02 AMBIENTES\BCIFuse\Workspace_switchyard_ejemplos -os win32 -ws win32 -arch x86 -product com.jboss.jbds.product.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-06-14 11:04:18.375
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sentrauser3214'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.fusesource.ide.jvmmonitor.tools 4 0 2016-06-14 11:04:28.378
+!MESSAGE Update timer canceled.
+!STACK 1
+org.fusesource.ide.jvmmonitor.core.JvmCoreException: sun.jvmstat.monitor.MonitoredHost cannot be found by org.fusesource.ide.jvmmonitor.tools_7.2.3.v20150224-1852-H95-Final
+	at org.fusesource.ide.jvmmonitor.internal.tools.Tools.invokeGetMonitoredHost(Tools.java:130)
+	at org.fusesource.ide.jvmmonitor.internal.tools.JvmAttachHandler.updatesActiveJvms(JvmAttachHandler.java:102)
+	at org.fusesource.ide.jvmmonitor.internal.tools.JvmAttachHandler$1.run(JvmAttachHandler.java:82)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: sun.jvmstat.monitor.MonitoredHost cannot be found by org.fusesource.ide.jvmmonitor.tools_7.2.3.v20150224-1852-H95-Final
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.fusesource.ide.jvmmonitor.internal.tools.Tools.invokeGetMonitoredHost(Tools.java:125)
+	... 4 more
+!SUBENTRY 1 org.fusesource.ide.jvmmonitor.core 4 0 2016-06-14 11:04:28.379
+!MESSAGE sun.jvmstat.monitor.MonitoredHost cannot be found by org.fusesource.ide.jvmmonitor.tools_7.2.3.v20150224-1852-H95-Final
+!STACK 0
+java.lang.ClassNotFoundException: sun.jvmstat.monitor.MonitoredHost cannot be found by org.fusesource.ide.jvmmonitor.tools_7.2.3.v20150224-1852-H95-Final
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:501)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.fusesource.ide.jvmmonitor.internal.tools.Tools.invokeGetMonitoredHost(Tools.java:125)
+	at org.fusesource.ide.jvmmonitor.internal.tools.JvmAttachHandler.updatesActiveJvms(JvmAttachHandler.java:102)
+	at org.fusesource.ide.jvmmonitor.internal.tools.JvmAttachHandler$1.run(JvmAttachHandler.java:82)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 1 2016-06-14 11:11:34.809
+!MESSAGE NLS unused message: label_moveDefault in: org.switchyard.tools.ui.editor.messages
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2016-06-14 11:14:00.857
+!MESSAGE The server "JBoss EAP 6.1+ Runtime Server" requires a JDK to run properly. The VM used to launch this server is not recognized as a valid JDK. C:\Program Files (x86)\Java\jre1.8.0_77 

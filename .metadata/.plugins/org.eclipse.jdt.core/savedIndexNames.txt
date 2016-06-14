@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+D:\02 AMBIENTES\BCIFuse\Workspace_switchyard_ejemplos\.metadata\.plugins\org.eclipse.jdt.core
+176859257.index
+3462542415.index
